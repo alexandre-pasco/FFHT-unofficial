@@ -18,7 +18,7 @@ module = Pybind11Extension(
     )
 
 setup(name='FFHT-unofficial',
-      version='0.1',
+      version='0.2',
       author='Alexandre Pasco',
       url='https://github.com/alexandre-pasco/FFHT-unofficial',
       description='Fast implementation of the Fast Hadamard Transform (FHT)',
