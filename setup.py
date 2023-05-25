@@ -18,7 +18,7 @@ module = Pybind11Extension(
     )
 
 setup(name='FFHT-unofficial',
-      version='0.2',
+      version='0.3',
       author='Alexandre Pasco',
       url='https://github.com/alexandre-pasco/FFHT-unofficial',
       description='Fast implementation of the Fast Hadamard Transform (FHT)',
@@ -27,5 +27,6 @@ setup(name='FFHT-unofficial',
       license='MIT',
       keywords='fast Fourier Hadamard transform butterfly',
       packages=find_packages(),
+      install_requires=['numpy ','pybind11'],
       include_package_data=True,
       ext_modules=[module])
